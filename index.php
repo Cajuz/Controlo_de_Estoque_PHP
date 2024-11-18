@@ -12,7 +12,7 @@
 	<img src="" alt="logo">
 	<nav>
 		<ul>
-			<li><a href="$">HOME</li>
+			<li><a href="$">Home</li>
 
 			<li><a href="$">Produtores</li>
 
@@ -25,27 +25,24 @@
 <main>
 	<h2>Conteúdo</h2>
 	<div class="container">
- 	 <!--<div class="row row-cols-4">
+ 	 <div class="row">
 		<div class="col">Dashboard</div>
 		<div class="col">Dashboard</div>
 		<div class="col">Dashboard</div>
 		<div class="col">Dashboard</div>
-  	</div>-->
+  	</div><br><br>
 
 	<div class="row">
-		<div class="col">Column1</div>
-		<div class="col">Column2</div>
-		<div class="col">Column3</div>
-		<div class="col">Column4</div>
-		<div class="col">Column5</div>
-		<div class="col">Column6</div>
-		<div class="col">Column7</div>
-		<div class="col">Column8</div>
-		<div class="col">Column9</div>
-		<div class="col">Column10</div>
-		<div class="col">Column11</div>
-		<div class="col">Column12</div>
-	</div>
+		<div class="col">Gráfico</div>
+		<div class="col">Gráfico</div>
+		<div class="col">Gráfico</div>
+	</div><br><br>
+
+	<div class="row">
+		<div class="col">Gráfico</div>
+		<div class="col">Gráfico</div>
+		<div class="col">Gráfico</div>
+	</div><br><br>
 </div>
 </main>
 
