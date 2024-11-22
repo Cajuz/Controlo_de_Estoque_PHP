@@ -4,18 +4,24 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: rgb(167, 0, 245);
+    justify-content: space-between;
+    display:flex
+    align items:contents
+    padding: 10px 10px;
+    color:#fff;
+    
+
+}
+
 nav ul li{
     display: inline-block;
+    color: #fff;
 }
 
-.container{
-    border: 1px solid #4d64e4;
+.card-text,.card-link{
+    color: rgb(255, 255, 255);
+    position: sticky;
 }
 
-.col{
-    border: 1px solid #4d64e4;
-}
-
-.row{
-    border: 1px solid ;
-}
