@@ -1,27 +1,142 @@
-*{
-    padding: 0;
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
-header{
-    background-color: rgb(167, 0, 245);
+header {
+    background-color: #0578eb;
+    color: white;
+    padding: 10px 0;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+
+
+nav {
+    display: flex;
     justify-content: space-between;
-    display:flex
-    align items:contents
-    padding: 10px 10px;
-    color:#fff;
-    
-
+    align-items: center;
+    margin-top: 10px;
 }
 
-nav ul li{
-    display: inline-block;
-    color: #fff;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.card-text,.card-link{
-    color: rgb(255, 255, 255);
-    position: sticky;
+nav li {
+    margin: 0 15px;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.admin-btn {
+    position: absolute;
+    left: 85%;
+    top: 10px;  
+    text-align: center;
+}
+
+.admin-btn img {
+    width: 20px;  
+    height: 10px; 
+}
+
+.admin-btn .admin-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000000;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h2, h6 {
+    color: rgb(0, 0, 0);
+}
+
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: none;
+}
+
+
+.text-white {
+    color: white !important;
+}
+
+.card-text {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+.graficos {
+    margin-top: 40px;
+}
+
+.card-img-bottom {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0 0 5px 5px;
+}
+
+
+footer {
+    background-color: #005dbb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
